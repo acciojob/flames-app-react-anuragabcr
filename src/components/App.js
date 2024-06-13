@@ -42,6 +42,7 @@ function App() {
       <h2>FLAMES Game</h2>
       <input
         type="text"
+        name='name1'
         placeholder="Enter First Name"
         data-testid="input1"
         value={name1}
@@ -49,6 +50,7 @@ function App() {
       />
       <input
         type="text"
+        name='name2'
         placeholder="Enter Second Name"
         data-testid="input2"
         value={name2}
