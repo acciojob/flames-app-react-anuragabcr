@@ -26,7 +26,7 @@ function App() {
 
     const totalLength = remainingChars1.length + remainingChars2.length;
     const flamesResult = totalLength % 6;
-    const relationship = ['Friends', 'Love', 'Affection', 'Marriage', 'Enemy', 'Siblings'][flamesResult];
+    const relationship = ["Siblings", "Friends", "Love", "Affection", "Marriage", "Enemy"][flamesResult];
 
     setResult(relationship || 'Please Enter valid input');
   };
